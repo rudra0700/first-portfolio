@@ -42,34 +42,29 @@ nav a {
 /* banner section */
 
 .header {
-  /* border: 2px solid red; */
   background-color: #fff8f3;
   background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 .banner-container {
-  /* border: 2px solid black; */
   padding: 30px 30px 30px 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .banner-content {
-  /* border: 2px solid red; */
   max-width: 500px;
 }
 .banner .profile-pic {
   width: 300px;
 }
 .banner-greeting {
-  /* border: 2px solid green; */
   font-size: 45px;
   font-weight: 600;
   margin-bottom: 0px;
 }
 .banner-title {
-  /* border: 2px solid aqua; */
   font-size: 85px;
   font-weight: 700;
   margin-top: 5px;
@@ -81,7 +76,6 @@ nav a {
 
 /* about section */
 .about {
-  border: 2px solid black;
   background: #fff8f3;
   padding: 130px;
   margin: 130px 0;
@@ -112,9 +106,8 @@ main section {
 .about-info {
   text-align: center;
 }
-.sec {
-  border: 2px solid red;
-}
+
+/* skill style */
 #what-i-do-padding {
   padding: 30px 150px;
 }
@@ -123,7 +116,6 @@ main section {
   gap: 24px;
 }
 .skill {
-  /* border: 2px solid black; */
   padding: 30px;
   border-radius: 5px;
   background: #fff;
@@ -133,9 +125,7 @@ main section {
   color: #757575;
 }
 
-.resume {
-  border: 2px solid red;
-}
+/* resume section */
 .resume-column-title {
   color: #474747;
   font-size: 30px;
@@ -169,20 +159,19 @@ main section {
 
 /* footer style */
 footer {
-  border: 2px solid black;
   display: flex;
   gap: 100px;
   background-color: #fff8f3;
   padding: 130px 200px;
 }
 .footer-column {
-  border: 2px solid red;
   width: 50%;
 }
-.social-links a{
+.social-links a {
   margin-right: 25px;
 }
-.contact input[type="text"], .contact input[type="email"],
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
   display: block;
   margin-bottom: 25px;
@@ -193,4 +182,3 @@ textarea {
   border: 0;
   width: 100%;
 }
-
