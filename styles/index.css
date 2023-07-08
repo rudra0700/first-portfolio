@@ -80,6 +80,7 @@ nav a {
 }
 .about {
   border: 2px solid black;
+  background: #FFF8F3;
   padding: 130px;
   margin: 130px 0;
 }
@@ -94,4 +95,15 @@ nav a {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+}
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info{
+  text-align: center;
 }
