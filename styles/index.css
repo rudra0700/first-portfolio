@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+/* navbar style */
 .primary-color {
   color: #fd6e0a;
 }
@@ -14,9 +15,11 @@ body {
   font-weight: 600;
 }
 nav {
+  border: 2px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 0 200px;
 }
 .nav-title {
   color: #181818;
@@ -34,4 +37,43 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* banner section */
+.header {
+  border: 2px solid red;
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner-container {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.banner-content{
+  border: 2px solid red;
+  max-width: 500px;
+}
+.banner .profile-pic {
+  width: 300px;
+}
+.banner-greeting {
+  border: 2px solid green;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.banner-title {
+  border: 2px solid aqua;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-desc {
+  margin-top: 30px;
 }
