@@ -78,6 +78,8 @@ nav a {
 .banner-desc {
   margin-top: 30px;
 }
+
+/* about section */
 .about {
   border: 2px solid black;
   background: #FFF8F3;
@@ -106,4 +108,10 @@ main{
 }
 .about-info{
   text-align: center;
+}
+.sec{
+  border: 2px solid red;
+}
+#what-i-do-padding{
+  padding: 30px 150px;
 }
